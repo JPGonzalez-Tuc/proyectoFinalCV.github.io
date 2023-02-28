@@ -1,0 +1,357 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+/* Degradado suave en tonos azules que tiene la cabecera */
+.cabecera {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 0%, #144E75 100%);
+    height: 170px;
+}
+
+/* Estilo de fuente aplicado al título de la cabecera */
+.titul {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #F8FDFF;
+}
+
+/* Subtítulo aplicado al subtítulo de la cabecera */
+.subtitulo {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 4px;
+    margin-right: 1px;
+    padding-top: 1px;
+    font-size: 100px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #8BFDFF;
+}
+
+/* Estilo de fuente aplicado en los links de la barra de navegación */
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Estilo de fuente aplicado en el texto de los datos personales */
+.datos {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* Degradado en tonos suaves de celeste aplicado en la sección formación académica */
+.formacion {
+    background: #D2F9FF;
+    background: -moz-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: linear-gradient(to right, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    height: auto;
+}
+
+/* Estilo de fuente para los títulos de las diferentes secciones */
+.seccion {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #1231CA;
+}
+
+/* Clase aplicada al icono de pdf */
+.iconpdf {
+    margin-left: 10px;
+}
+
+#iconPdfCient {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+/* Clase aplicada a los subtítulos de la formación académica */
+.sub {
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+/* Clase aplicada a los textos en forma de párrafo */
+.parrafo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.container-fluid {
+    background-color: #D2F0F2;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* Clase para las card */
+.card {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Foto de perfil */
+#foto {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* No agrupo los logos en una única clase porque de acuerdo al tamaño de la imagen  */
+/* imlpica pequeños cambios en las características de cada uno */
+
+#logo1 {
+    display: block;
+    margin: auto;
+}
+
+#logo2 {
+    display: block;
+    margin: auto;
+}
+
+#logo3 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+#logo4 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+#logo5 {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 6px;
+}
+
+#logo6 {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+#logo7 {
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+#logo8 {
+    display: block;
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+#pjava {
+    margin-top: 20px;
+}
+
+/* Media query aplicados a los títulos de la cabecera  */
+/* para que sea responsivo a tablet (768px max) y movil (576px max) */
+@media (max-width: 768px) {
+    .titul {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 35px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 576px) {
+    .titul {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+    }
+}
+
+/* Necesito que los siguientes títulos de seccion que tienen clase .seccion */
+/* tengan margin-top 10 px, por eso les cambio ese atributo usando id */
+#publicacion {
+    margin-top: 10px;
+}
+
+#investigacion {
+    margin-top: 10px;
+}
+
+#experienciaLab {
+    margin-top: 10px;
+}
+
+#aptitudes {
+    margin-top: 10px;
+}
+
+/* Degradado en tonos azules para la sección de publicación científica */
+#cientifico {
+    margin-top: 10px;
+    background: #D2F9FF;
+    background: -moz-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: linear-gradient(to right, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+}
+
+/* Estilo de hipervínculo de publicación científica */
+#linkTexto {
+    margin-left: 10px;
+    color: #1231CA;
+}
+
+/* Contenedor de link al pdf de la publicación científica */
+#linkPDF {
+    margin-top: 10px;
+}
+
+/* Texto de la publicación científica */
+#textoPub{
+    margin-left: 10px;
+}
+
+/* Iconos */
+#maletinIco {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+#boneteIco {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+#userIco {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#libroIco {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+#labIco {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+#toolIco {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+#chipIco {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+/* Botones */
+#botonSec {
+    margin-bottom: 10px;
+}
+
+#botonHosp {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#botonCNEA {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#botonCient {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#botonTrabajos {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* footer */
+.pie {
+    margin-top: 10px;
+    background: #D2F9FF;
+    background: -moz-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    background: linear-gradient(to right, #D2F9FF 0%, #95BAFF 0%, #FFFFFF 100%);
+    height: 100px;
+}
+
+#pieTexto {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}

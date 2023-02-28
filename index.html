@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Mgter JP González</title>
+    <link rel="icon" type="image/x-icon" href="cv_icon.png">
+    <link rel="stylesheet" type="text/css" href="Diseño.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,400;1,700&family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@400;900&family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+    <!--Sección Encabezado: Esta sección incluye el Mensaje de MI NOMBRE, CV, la foto y la navbar-->
+    <div class="encabezado">
+        <section class="cabecera">
+            <span class="titul">Mgter. Ing. Juan Pablo González</span>
+            <h2 class="subtitulo">CV</h2>
+            <div>
+                <img id="foto" src="cv.png" class="img-fluid" width="150" height="150" alt="No se pudo cargar imagen">
+            </div>
+        </section>
+
+        <nav id="barraNav" class="navbar navbar-expand-lg fixed bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a id="botonDP" class="nav-link active" href="#datosPersonales">Datos personales</a>
+                        <a class="nav-link active" href="#formacionAcademica">Formación académica</a>
+                        <a class="nav-link active" href="#experienciaLab">Experiencia laboral</a>
+                        <a class="nav-link active" href="#publicacion">Publicación científica</a>
+                        <a class="nav-link active" href="#investigacion">Trabajos de investigación</a>
+                        <a class="nav-link active" href="#aptitudes">Aptitudes técnicas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Sección de Datos Personales-->
+    <section class="datos">
+        <div class="contenedor">
+            <object id="userIco" data="user-solid.svg" width="25" height="25"> </object>
+            <h2 id="datosPersonales" class="seccion">Datos personales</h2>
+        </div>
+
+        <ul>
+            <li>Fecha de nacimiento: 28 de noviembre de 1984.</li>
+            <li>DNI: 30709900.</li>
+            <li>Lugar de nacimiento: San Miguel de Tucumán, Argentina.</li>
+            <li>Teléfono móvil: (381)5286262</li>
+            <li>Mail: <a href="mailto:jpgonzalezbioing@gmail.com">Enviar email</a></li>
+            <li>Linkedin: <a href="https://www.linkedin.com/in/juan-pablo-gonz%C3%A1lez-11689965" target="_blank">Perfil Linkedin</a></li>
+        </ul>
+
+    </section>
+
+    <!--Sección de la formación académica-->
+    <section class="formacion">
+        <div class="contenedor">
+            <object id="boneteIco" data="graduation-cap-solid.svg" width="31" height="31"> </object>
+            <h2 id="formacionAcademica" class="seccion">Formación académica</h2>
+        </div>
+
+        <h3 class="sub">Título de Posgrado</h3>
+
+        <p class="parrafo">
+            Magister en Física Médica recibido el 20/12/2021 en el Instituto Balseiro de la Universidad Nacional de Cuyo.
+            Trabajo de graduación: “Propuesta metodológica para la creación de una base de datos de pacientes normales en protocolo cerebral PET/MR FDG” (Nota: 9).
+        </p>
+        <a class="iconpdf" href="Gonzalez(MFM).pdf" target="_blank"><img src="pdf_icon.png" style="width:32px;height:32px;"></a>
+        <button type="button" class="btn btn-primary" id="botonPos">Ver certificado título en trámite</button>
+
+        <h3 class="sub">Título de Grado</h3>
+        <p class="parrafo">
+            Ingeniero Biomédico recibido el 18/12/2012 en la Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán acreditada CONEAU Res 631/06 (promedio general 7,423).
+            Trabajo de graduación: “Software para planificación de procesos de irradiación gamma destinados a esterilización de Productos para el cuidado de la Salud” (Nota: 10).
+        </p>
+        <a class="iconpdf" href="Titulo.pdf" target="_blank"><img src="pdf_icon.png" style="width:32px;height:32px;"></a>
+        <button type="button" class="btn btn-primary" id="botonTitulo">Ver título</button>
+        <h3 class="sub">Título de Secundario</h3>
+        <p class="parrafo">
+            Técnico en Electrónica. Instituto Técnico Salesiano Lorenzo Massa. Período: 1998-2003. Promedio: 8,34. Abanderado mejor promedio 2003.
+        </p>
+        <a class="iconpdf"><img src="pdf_icon.png" style="width:32px;height:32px;"></a>
+        <button type="button" class="btn btn-primary" id="botonSec">Ver certificado</button>
+
+    </section>
+
+    <!--Sección de la Experiencia Laboral-->
+    <div class="contenedor">
+        <object id="maletinIco" data="briefcase-solid.svg" width="25" height="25"> </object>
+        <h2 id="experienciaLab" class="seccion">Experiencia laboral</h2>
+    </div>
+
+    <div class="contenedor">
+        <div class="card">
+            <div class="card-body">
+                <img id="logo1" src="logoPadilla.png" class="img-fluid" width="103" height="61" alt="No se pudo cargar imagen">
+                <h5 class="sub">Departamento de Ingeniería Clínica del Hospital Ángel C. Padilla. San Miguel de Tucumán, Argentina</h5>
+                <button type="button" class="btn btn-primary" id="botonHosp">Ver</button>
+                <div id="infoPadilla">
+                    <dl>
+                        <dd class="parrafo">- Técnico electrónico. Periodo: febrero de 2012 hasta diciembre de 2012.</dd>
+                        <dd class="parrafo">- Ingeniero Biomédico. Periodo: diciembre de 2012 hasta noviembre de 2014.</dd>
+                    </dl>
+                    <h4 class="parrafo">Experiencia</h4>
+                    <ul>
+                        <li class="parrafo">Mantenimiento y reparación de equipos de electromedicina (monitores multiparamétricos, electrocardiógrafos, cardiodesfibriladores, bombas de infusión, oxímetros de pulso, mesas de anestesia, respiradores).</li>
+                        <li class="parrafo">Mantenimiento y reparación de equipos de diagnóstico por imágenes (equipos de rayos x, equipo de tomografía axial computada, ecógrafos, equipo de resonancia magnética nuclear).</li>
+                        <li class="parrafo">Activa participación y colaboración en todo el procesor de instalación de un equipo Resonador Magnético Nuclear Philips Modelo Achieva 1.5T (análisis de ruidos y vibraciones del bunker, blindaje electromagnético de la sala, instalación de chiller de refrigeración del equipo, instalación del gantry y consola de control, levantamiento de campo de imán superconductor, calibración de equipo y bobinas, cargado de secuencias de estudios).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <img id="logo2" src="logoCNEA.png" class="img-fluid" width="80" height="80" alt="No se pudo cargar imagen">
+                <h5 class="sub">Planta de Irradiación Semi-Industrial, Centro Atómico Ezeiza, Comisión Nacional de Energía Atómica. Buenos Aires, Argentina.</h5>
+                <button type="button" class="btn btn-primary" id="botonCNEA">Ver</button>
+                <div id="infoCNEA">
+                    <dl>
+                        <dd class="parrafo">- Becario. Tema de Beca Profesional: “Instrumentación y modelado de procesos”. Periodo: diciembre 2014 hasta diciembre 2017.</dd>
+                        <dd class="parrafo">- El 29 de diciembre de 2017 Ingresa a Planta Permanente de la Comisión Nacional de Energía Atómica como Ingeniero en Instrumentación y Control de la Planta de Irradiación Semi-Industrial del Centro Atómico Ezeiza.</dd>
+                    </dl>
+                    <h4 class="parrafo">Experiencia</h4>
+                    <ul>
+                        <li class="parrafo">Desarrollo de un software de predicción de tasa de dosis y dosis absorbida de la planta de irradiación utilizando método determinístico de cálculo (Desarrollo en lenguaje Java).</li>
+                        <li class="parrafo">Desarrollo de un modelo de la Planta de irradiación gamma utilizando el código de transportes de partículas MCNP para cálculo de tasa de dosis absorbida dentro del recinto.</li>
+                        <li class="parrafo">Desarrollo de un software interfaz de usuario para el manejo del sistema de irradiación dinámico de la Planta de Irradiación (Desarrollo en .NET).</li>
+                        <li class="parrafo">Colaboración en la programación del PLC (Programmable Logic Controller) del sistema de irradiación dinámico de la Planta de Irradiación.</li>
+                        <li class="parrafo">Mantenimiento y reparación de monitores de radiación. Reparación de fuentes de alta tensión de detectores y fuentes de alimentación del equipo. Calibración de módulos de conversión corriente-tensión.</li>
+                        <li class="parrafo">Evaluación de distintos diseños de facilidades de irradiación gamma mediante código de transporte de partículas MCNP.</li>
+                        <li class="parrafo">Colaboración con la Subgerencia de Instrumentación y Control CNEA-CAE: Desarrollo de un software de interface de comunicación con emulador del Sistema de Protección del Reactor RA10. Programación en .NET Visual Studio (actualmente se encuentra en desarrollo).</li>
+                    </ul>
+                    <h4 class="parrafo">Trabajos dirigidos</h4>
+                    <ul>
+                        <li class="parrafo">
+                            Director de beca profesional “Diseño y Desarrollo de Ingeniería Conceptual en Plantas de Irradiación”.
+                            Becaria: Ingeniera Nuclear María José Cervantes.
+                        </li>
+                        <li class="parrafo">
+                            Co-Director de Proyecto Final Integrador “Puesta a punto de un sistema de planificación opensource en radioterapia” de la Ingeniera Nuclear con Orientación en Aplicaciones Rosario López de San Martín Zapata. Instituto Dan Beninson (Universidad Nacional de San Martín). Director: Mg. Diego Carrasco.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sección de la publicación científica-->
+    <section id="cientifico">
+        <div class="contenedor" id="pubCien">
+            <object id="labIco" data="flask-solid.svg" width="25" height="25"> </object>
+            <h2 id="publicacion" class="seccion">Publicación en revista científica</h2>
+        </div>
+
+        <a href="https://www.rbfm.org.br/rbfm/article/view/682" target="_blank"><img id="logo3" src="logoRBFM.png" class="img-fluid" width="184" height="70" alt="No se pudo cargar imagen"></a>
+        <div class="parrafo" id="textoPub">Revista Brasilera de Física Médica ISSN 1984-9001: “Propuesta Metodológica para la Creación de una Base de Datos de Pacientes Normales en Protocolo Cerebral PET/MR FDG” González J.P, Marino E.A., Zanchi D.E., Mosconi S., Guirao M. 30/12/2022.</div>
+
+        <a class="parrafo" id="linkTexto" href="https://www.rbfm.org.br/rbfm/article/view/682" target="_blank">Link a artículo en revista</a>
+
+        <div class="contenedor" id="linkPDF">
+            <a class="iconpdf" id="iconPdfCient" href="682-Texto.pdf" target="_blank"><img src="pdf_icon.png" style="width:32px;height:32px;"></a>
+            <button type="button" class="btn btn-primary" id="botonCient">Ver PDF</button>
+        </div>
+    </section>
+
+    <!--Sección de los trabajos de investigación-->
+    <div class="contenedor" id="pdfSec">
+        <object id="libroIco" data="bookmark-solid.svg" width="25" height="25"> </object>
+        <h2 id="investigacion" class="seccion">Trabajos de investigación presentados</h2>
+    </div>
+
+    <div class="contenedor">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="sub">En esta sección se detallan los trabajos de investigación presentados en congresos y encuentros científicos</h3>
+                <button type="button" class="btn btn-primary" id="botonTrabajos">Ver</button>
+                <div id="detalleTrab">
+                    <ul>
+                        <li class="parrafo">IX Congreso Latinoamericano y XXVI Congreso Brasilero de Física Médica 2022: “Propuesta metodológica para la creación de una base de datos de pacientes normales en protocolo cerebral PET/MR FDG” – González J.P, Marino E.A., Zanchi D.E., Mosconi S., Guirao M. – Fortaleza, Brasil.</li>
+                        <li class="parrafo">XL Reunión Anual de la Asociación Argentina de Tecnología Nuclear “AATN 2013 Participación Nuclear en el panorama energético Nacional”: “Modelado de la atenuación intrínseca del producto a irradiar” – González J.P., Carrillo M., Menendez F.D. – Buenos Aires, República Argentina.</li>
+                        <li class="parrafo">XIX Congreso Argentino de Bioingeniería VIII Jornadas de Ingeniería Clínica: “Software de predicción de tasa de dosis y dosis absorbida para esterilización gamma en una planta de irradiación” – González J.P., Carrillo M., Mangussi J., Menendez F.D. – San Miguel de Tucumán, Tucumán, República Argentina.</li>
+                        <li class="parrafo">XXXIX Reunión Anual de la Asociación Argentina de Tecnología Nuclear “AATN 2012”: “Software para modelado de procesos de irradiación gamma destinados a esterilización de productos para el cuidado de la salud” – González J.P., Carrillo M., Mangussi J., Menendez F.D. - Buenos Aires, República Argentina.</li>
+                        <li class="parrafo">Ponencia en 1er Encuentro Científico de Investigadores de la Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán 2012: “Modelado y Desarrollo de Equipamiento para Aplicaciones Nucleares”.</li>
+                        <li class="parrafo">Poster en 1er Encuentro Científico de Investigadores de la Facultad de Ciencias Exactas y Tecnología de la Universidad Nacional de Tucumán 2012: “Software para modelado de procesos de irradiación gamma destinados a esterilización de productos para el cuidado de la salud”.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sección de las Aptitudes Técnicas-->
+    <div class="contenedor" id="aptitudesTecnicas">
+        <object id="toolIco" data="wrench-solid.svg" width="25" height="25"> </object>
+        <h2 id="aptitudes" class="seccion">Aptitudes técnicas</h2>
+    </div>
+    <p class="parrafo">Conocimiento y experiencia en programación en:</p>
+    <div class="contenedor">
+        <img id="logo4" src="Java-Logo.png" class="img-fluid" width="26" height="48" alt="No se pudo cargar imagen">
+        <p class="parrafo" id="pjava">Lenguaje Java</p>
+    </div>
+    <div class="contenedor">
+        <img id="logo5" src="Python-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
+        <p class="parrafo">Lenguaje Python</p>
+    </div>
+    <div class="contenedor">
+        <img id="logo6" src="Csharp-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
+        <p class="parrafo">Lenguaje C#</p>
+    </div>
+    <div class="contenedor">
+        <img id="logo7" src="Microchip-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
+        <p class="parrafo">Conocimiento y experiencia en manejo de microcontroladores PIC.</p>
+    </div>
+    <div class="contenedor">
+        <img id="logo8" src="Arduino-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
+        <p class="parrafo">Conocimiento y experiencia en manejo de plataforma electrónica Arduino.</p>
+    </div>
+    <div class="contenedor">
+        <object id="chipIco" data="microchip-solid.svg" width="29" height="29"> </object>
+        <p class="parrafo">Conocimiento y experiencia en manejo de PLCs (Controladores Lógicos Programables).</p>
+    </div>
+
+    <!--Archivos de comportamiento en Javascript-->
+    <script src="comportamiento.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer class="pie">
+        <p class="parrafo" id="pieTexto">2023. Juan Pablo Gonzalez</p>
+    </footer>
+</body>
+</html>
