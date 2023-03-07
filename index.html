@@ -20,7 +20,7 @@
 <body>
 
     <!--Sección Encabezado: Esta sección incluye el Mensaje de MI NOMBRE, CV, la foto y la navbar-->
-    <div class="encabezado">
+    <div class="encabezado sticky-top">
         <section class="cabecera">
             <span class="titul">Mgter. Ing. Juan Pablo González</span>
             <h2 class="subtitulo">CV</h2>
@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a id="botonDP" class="nav-link active" href="#datosPersonales">Datos personales</a>
-                        <a class="nav-link active" href="#formacionAcademica">Formación académica</a>
+                        <a class="nav-link active" href="#secForAc">Formación académica</a>
                         <a class="nav-link active" href="#experienciaLab">Experiencia laboral</a>
                         <a class="nav-link active" href="#publicacion">Publicación científica</a>
                         <a class="nav-link active" href="#investigacion">Trabajos de investigación</a>
@@ -49,7 +49,7 @@
     </div>
 
     <!--Sección de Datos Personales-->
-    <section class="datos">
+    <section class="datos" id="seccionDatos">
         <div class="contenedor">
             <object id="userIco" data="user-solid.svg" width="25" height="25"> </object>
             <h2 id="datosPersonales" class="seccion">Datos personales</h2>
@@ -67,7 +67,7 @@
     </section>
 
     <!--Sección de la formación académica-->
-    <section class="formacion">
+    <section class="formacion" id="secForAc">
         <div class="contenedor">
             <object id="boneteIco" data="graduation-cap-solid.svg" width="31" height="31"> </object>
             <h2 id="formacionAcademica" class="seccion">Formación académica</h2>
@@ -208,31 +208,34 @@
         <object id="toolIco" data="wrench-solid.svg" width="25" height="25"> </object>
         <h2 id="aptitudes" class="seccion">Aptitudes técnicas</h2>
     </div>
-    <p class="parrafo">Conocimiento y experiencia en programación en:</p>
-    <div class="contenedor">
-        <img id="logo4" src="Java-Logo.png" class="img-fluid" width="26" height="48" alt="No se pudo cargar imagen">
-        <p class="parrafo" id="pjava">Lenguaje Java</p>
+    <div class="container-fluid bg-white">
+        <p class="parrafo">Conocimiento y experiencia en programación en:</p>
+        <div class="contenedor">
+            <img id="logo4" src="Java-Logo.png" class="img-fluid" width="26" height="48" alt="No se pudo cargar imagen">
+            <p class="parrafo" id="pjava">Lenguaje Java</p>
+        </div>
+        <div class="contenedor">
+            <img id="logo5" src="Python-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
+            <p class="parrafo">Lenguaje Python</p>
+        </div>
+        <div class="contenedor">
+            <img id="logo6" src="Csharp-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
+            <p class="parrafo">Lenguaje C#</p>
+        </div>
+        <div class="contenedor">
+            <img id="logo7" src="Microchip-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
+            <p class="parrafo">Conocimiento y experiencia en manejo de microcontroladores PIC.</p>
+        </div>
+        <div class="contenedor">
+            <img id="logo8" src="Arduino-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
+            <p class="parrafo">Conocimiento y experiencia en manejo de plataforma electrónica Arduino.</p>
+        </div>
+        <div class="contenedor">
+            <object id="chipIco" data="microchip-solid.svg" width="29" height="29"> </object>
+            <p class="parrafo">Conocimiento y experiencia en manejo de PLCs (Controladores Lógicos Programables).</p>
+        </div>    
     </div>
-    <div class="contenedor">
-        <img id="logo5" src="Python-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
-        <p class="parrafo">Lenguaje Python</p>
-    </div>
-    <div class="contenedor">
-        <img id="logo6" src="Csharp-Logo.png" class="img-fluid" width="30" height="30" alt="No se pudo cargar imagen">
-        <p class="parrafo">Lenguaje C#</p>
-    </div>
-    <div class="contenedor">
-        <img id="logo7" src="Microchip-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
-        <p class="parrafo">Conocimiento y experiencia en manejo de microcontroladores PIC.</p>
-    </div>
-    <div class="contenedor">
-        <img id="logo8" src="Arduino-Logo.png" class="img-fluid" width="29" height="26" alt="No se pudo cargar imagen">
-        <p class="parrafo">Conocimiento y experiencia en manejo de plataforma electrónica Arduino.</p>
-    </div>
-    <div class="contenedor">
-        <object id="chipIco" data="microchip-solid.svg" width="29" height="29"> </object>
-        <p class="parrafo">Conocimiento y experiencia en manejo de PLCs (Controladores Lógicos Programables).</p>
-    </div>
+    
 
     <!--Archivos de comportamiento en Javascript-->
     <script src="comportamiento.js"></script>
